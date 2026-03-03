@@ -1,0 +1,14 @@
+C:\área-de-trabalho\workspace\Biblioteca\obj\Debug\net8.0\Biblioteca.GeneratedMSBuildEditorConfig.editorconfig
+C:\área-de-trabalho\workspace\Biblioteca\obj\Debug\net8.0\Biblioteca.AssemblyInfoInputs.cache
+C:\área-de-trabalho\workspace\Biblioteca\obj\Debug\net8.0\Biblioteca.AssemblyInfo.cs
+C:\área-de-trabalho\workspace\Biblioteca\obj\Debug\net8.0\Biblioteca.csproj.CoreCompileInputs.cache
+C:\área-de-trabalho\workspace\Biblioteca\bin\Debug\net8.0\Biblioteca.exe
+C:\área-de-trabalho\workspace\Biblioteca\bin\Debug\net8.0\Biblioteca.deps.json
+C:\área-de-trabalho\workspace\Biblioteca\bin\Debug\net8.0\Biblioteca.runtimeconfig.json
+C:\área-de-trabalho\workspace\Biblioteca\bin\Debug\net8.0\Biblioteca.dll
+C:\área-de-trabalho\workspace\Biblioteca\bin\Debug\net8.0\Biblioteca.pdb
+C:\área-de-trabalho\workspace\Biblioteca\obj\Debug\net8.0\Biblioteca.dll
+C:\área-de-trabalho\workspace\Biblioteca\obj\Debug\net8.0\refint\Biblioteca.dll
+C:\área-de-trabalho\workspace\Biblioteca\obj\Debug\net8.0\Biblioteca.pdb
+C:\área-de-trabalho\workspace\Biblioteca\obj\Debug\net8.0\Biblioteca.genruntimeconfig.cache
+C:\área-de-trabalho\workspace\Biblioteca\obj\Debug\net8.0\ref\Biblioteca.dll

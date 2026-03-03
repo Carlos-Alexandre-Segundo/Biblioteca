@@ -1,0 +1,196 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\\u00E1rea-de-trabalho\\workspace\\Biblioteca\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A5BC63FA-C639-4288-8833-40F840915522}|Biblioteca.csproj|c:\\\u00E1rea-de-trabalho\\workspace\\biblioteca\\infra\\meniu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5BC63FA-C639-4288-8833-40F840915522}|Biblioteca.csproj|solutionrelative:infra\\meniu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5BC63FA-C639-4288-8833-40F840915522}|Biblioteca.csproj|c:\\\u00E1rea-de-trabalho\\workspace\\biblioteca\\models\\dvd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5BC63FA-C639-4288-8833-40F840915522}|Biblioteca.csproj|solutionrelative:models\\dvd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5BC63FA-C639-4288-8833-40F840915522}|Biblioteca.csproj|c:\\\u00E1rea-de-trabalho\\workspace\\biblioteca\\infra\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5BC63FA-C639-4288-8833-40F840915522}|Biblioteca.csproj|solutionrelative:infra\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5BC63FA-C639-4288-8833-40F840915522}|Biblioteca.csproj|c:\\\u00E1rea-de-trabalho\\workspace\\biblioteca\\interfaces\\iemprestar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5BC63FA-C639-4288-8833-40F840915522}|Biblioteca.csproj|solutionrelative:interfaces\\iemprestar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5BC63FA-C639-4288-8833-40F840915522}|Biblioteca.csproj|c:\\\u00E1rea-de-trabalho\\workspace\\biblioteca\\models\\itembiblioteca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5BC63FA-C639-4288-8833-40F840915522}|Biblioteca.csproj|solutionrelative:models\\itembiblioteca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5BC63FA-C639-4288-8833-40F840915522}|Biblioteca.csproj|c:\\\u00E1rea-de-trabalho\\workspace\\biblioteca\\models\\biblioteca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5BC63FA-C639-4288-8833-40F840915522}|Biblioteca.csproj|solutionrelative:models\\biblioteca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5BC63FA-C639-4288-8833-40F840915522}|Biblioteca.csproj|c:\\\u00E1rea-de-trabalho\\workspace\\biblioteca\\programn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5BC63FA-C639-4288-8833-40F840915522}|Biblioteca.csproj|solutionrelative:programn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5BC63FA-C639-4288-8833-40F840915522}|Biblioteca.csproj|c:\\\u00E1rea-de-trabalho\\workspace\\biblioteca\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5BC63FA-C639-4288-8833-40F840915522}|Biblioteca.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5BC63FA-C639-4288-8833-40F840915522}|Biblioteca.csproj|c:\\\u00E1rea-de-trabalho\\workspace\\biblioteca\\interfaces\\ialugar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5BC63FA-C639-4288-8833-40F840915522}|Biblioteca.csproj|solutionrelative:interfaces\\ialugar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dvd.cs",
+              "DocumentMoniker": "C:\\\u00E1rea-de-trabalho\\workspace\\Biblioteca\\Models\\Dvd.cs",
+              "RelativeDocumentMoniker": "Models\\Dvd.cs",
+              "ToolTip": "C:\\\u00E1rea-de-trabalho\\workspace\\Biblioteca\\Models\\Dvd.cs",
+              "RelativeToolTip": "Models\\Dvd.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T12:49:10.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Programn.cs",
+              "DocumentMoniker": "C:\\\u00E1rea-de-trabalho\\workspace\\Biblioteca\\Programn.cs",
+              "RelativeDocumentMoniker": "Programn.cs",
+              "ToolTip": "C:\\\u00E1rea-de-trabalho\\workspace\\Biblioteca\\Programn.cs",
+              "RelativeToolTip": "Programn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T17:15:40.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Meniu.cs",
+              "DocumentMoniker": "C:\\\u00E1rea-de-trabalho\\workspace\\Biblioteca\\Infra\\Meniu.cs",
+              "RelativeDocumentMoniker": "Infra\\Meniu.cs",
+              "ToolTip": "C:\\\u00E1rea-de-trabalho\\workspace\\Biblioteca\\Infra\\Meniu.cs",
+              "RelativeToolTip": "Infra\\Meniu.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAcwH8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T17:01:50.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\\u00E1rea-de-trabalho\\workspace\\Biblioteca\\Infra\\Repository.cs",
+              "RelativeDocumentMoniker": "Infra\\Repository.cs",
+              "ToolTip": "C:\\\u00E1rea-de-trabalho\\workspace\\Biblioteca\\Infra\\Repository.cs",
+              "RelativeToolTip": "Infra\\Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T16:51:47.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IAlugar.cs",
+              "DocumentMoniker": "C:\\\u00E1rea-de-trabalho\\workspace\\Biblioteca\\Interfaces\\IAlugar.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IAlugar.cs",
+              "ToolTip": "C:\\\u00E1rea-de-trabalho\\workspace\\Biblioteca\\Interfaces\\IAlugar.cs",
+              "RelativeToolTip": "Interfaces\\IAlugar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T12:32:28.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IEmprestar.cs",
+              "DocumentMoniker": "C:\\\u00E1rea-de-trabalho\\workspace\\Biblioteca\\Interfaces\\IEmprestar.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IEmprestar.cs",
+              "ToolTip": "C:\\\u00E1rea-de-trabalho\\workspace\\Biblioteca\\Interfaces\\IEmprestar.cs",
+              "RelativeToolTip": "Interfaces\\IEmprestar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T12:32:19.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Biblioteca.cs",
+              "DocumentMoniker": "C:\\\u00E1rea-de-trabalho\\workspace\\Biblioteca\\Models\\Biblioteca.cs",
+              "RelativeDocumentMoniker": "Models\\Biblioteca.cs",
+              "ToolTip": "C:\\\u00E1rea-de-trabalho\\workspace\\Biblioteca\\Models\\Biblioteca.cs",
+              "RelativeToolTip": "Models\\Biblioteca.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T18:28:48.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\\u00E1rea-de-trabalho\\workspace\\Biblioteca\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Models\\Usuario.cs",
+              "ToolTip": "C:\\\u00E1rea-de-trabalho\\workspace\\Biblioteca\\Models\\Usuario.cs",
+              "RelativeToolTip": "Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T17:33:02.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ItemBiblioteca.cs",
+              "DocumentMoniker": "C:\\\u00E1rea-de-trabalho\\workspace\\Biblioteca\\Models\\ItemBiblioteca.cs",
+              "RelativeDocumentMoniker": "Models\\ItemBiblioteca.cs",
+              "ToolTip": "C:\\\u00E1rea-de-trabalho\\workspace\\Biblioteca\\Models\\ItemBiblioteca.cs",
+              "RelativeToolTip": "Models\\ItemBiblioteca.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T17:28:19.219Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
