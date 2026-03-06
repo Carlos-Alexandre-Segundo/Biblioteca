@@ -12,3 +12,4 @@ C:\área-de-trabalho\workspace\Biblioteca\obj\Debug\net8.0\refint\Biblioteca.dll
 C:\área-de-trabalho\workspace\Biblioteca\obj\Debug\net8.0\Biblioteca.pdb
 C:\área-de-trabalho\workspace\Biblioteca\obj\Debug\net8.0\Biblioteca.genruntimeconfig.cache
 C:\área-de-trabalho\workspace\Biblioteca\obj\Debug\net8.0\ref\Biblioteca.dll
+C:\área-de-trabalho\workspace\Biblioteca\obj\Debug\net8.0\Biblioteca.sourcelink.json

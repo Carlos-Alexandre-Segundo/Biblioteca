@@ -31,9 +31,9 @@ public static class Meniu
             case 3:
                 EmprestarItens();
                 break;
-            //case 4:
-            //    ConsultaDeItens();
-            //    break;
+            case 4:
+                ConsultaDeItens();
+                break;
             default: 
                 Console.WriteLine("fds");
                 break;
@@ -42,12 +42,16 @@ public static class Meniu
 
         
     }
+
+
     public static void CadastrarUsuarios()
     {
         Console.Clear();
         Console.WriteLine("Qual teu nome");
 
         var NomeDoNovoUser = Console.ReadLine();
+
+        Console.Clear();
 
         Console.WriteLine("Qual a tua idade");
 
@@ -102,7 +106,11 @@ public static class Meniu
 
     public static void EmprestarItens()
     {
-        Console.WriteLine($"Selecione o DVD que você deseja pegar emprestado");
+        Console.Clear();
+        Console.WriteLine("Essa é a nossa lista de Dvds:");
+        Console.WriteLine();
+
+        bool encontrouDvd = false;
 
         for (int i = 0; i < Repository.itemBibliotecas.Count; i++)
         {
@@ -112,16 +120,54 @@ public static class Meniu
             if (item is Dvd dvd)
             {
                 Console.WriteLine($"DVD {i + 1}:");
-                Console.WriteLine($"Título: {dvd.Titulo}");
-                Console.WriteLine($"Diretor: {dvd.Diretor}");
-                Console.WriteLine($"Ano de lançamento: {dvd.AnoDeLancamento}");
-                Console.WriteLine($"Tempo de duração em minutos: {dvd.Duracao}");
-                Console.WriteLine($"Disponibilidade:{dvd.Disponivel}");
-            }
-            else 
-            {
-                Console.WriteLine($"Não foi encontrado nenhum item");
-            }        
+                Console.Write($"Título: {dvd.Titulo}");
+                Console.WriteLine();
+                encontrouDvd = true;
+            }                
         }
+
+        if (!encontrouDvd)
+        {        
+                Console.WriteLine("Não foi encontrado nenhum item");            
+        }
+
+        Console.WriteLine("Aperte alguma tecla para continuar");
+        Console.ReadLine();
+
+        Console.Clear();
+        Console.WriteLine("Agora selecione qual dvd você deseja pegar emprestado");
     }
+    public static void ConsultaDeItens()
+    {
+        Console.Clear();
+        Console.WriteLine("Essa é a nossa lista de itens:");
+        Console.WriteLine();
+
+        bool listaitens = false;
+
+        for (int i = 0; i < Repository.itemBibliotecas.Count; i++)
+        {
+            var itensDaBiblioteca = Repository.itemBibliotecas[i];
+
+            if(itensDaBiblioteca is Dvd dvd)
+            {
+
+                Console.WriteLine("Nossa lista com todos os itens:");
+                Console.WriteLine();
+
+                Console.WriteLine($"Item {i + 1}:");
+                Console.WriteLine($"Dvd : {dvd.Titulo}");
+                Console.WriteLine();
+                listaitens = true;
+            }
+        }
+        
+        if (!listaitens)
+        {
+            Console.WriteLine("Não foi encontrado nenhum item na lista");
+        }
+        Console.WriteLine("Aperte alguma tecla para continuar");
+        Console.ReadLine();
+    }
+
 }
