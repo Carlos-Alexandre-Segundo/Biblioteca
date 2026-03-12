@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -35,59 +36,60 @@ public static class Meniu
                 ConsultaDeItens();
                 break;
             default: 
-                Console.WriteLine("fds");
+                Console.WriteLine("fds = fim de semana");
                 break;
         }
         BoasVindas();
 
         
     }
-
-
+    public static List<Usuario> usuariosCadastrados { get; set; } = [];
     public static void CadastrarUsuarios()
     {
-        Console.Clear();
-        Console.WriteLine("Qual teu nome");
 
+        Console.Clear();
+        Console.WriteLine("Qual seu nome");
         var NomeDoNovoUser = Console.ReadLine();
 
+
         Console.Clear();
-
         Console.WriteLine("Qual a tua idade");
-
         var IdadeDoNovoUser = int.Parse(Console.ReadLine());
+
 
         var User = new Usuario()
         {
             Idade = IdadeDoNovoUser,
             Nome = NomeDoNovoUser
-        }; 
+        };
 
-        Repository.Usuarios.Add(User);
-
+        usuariosCadastrados.Add(User);
         Console.WriteLine("Usuário cadastrado com sucesso");
     }
+
+    public static List<Dvd> dvdCadastrado { get; set; } = [];
+
     public static void CadastroDvds()
     {
         Console.Clear();
         Console.WriteLine($"Qual o nome do DVD ?");
-
         var NomeDoDVD = Console.ReadLine();
+
 
         Console.Clear();
         Console.WriteLine($"Qual o nome do diretor do DVD");
-
         var NomeDiretor = Console.ReadLine();
+
 
         Console.Clear();
         Console.WriteLine($"Qual o ano do lançamento ?");
-
         var AnoDoLancamento = int.Parse(Console.ReadLine());
+
 
         Console.Clear();
         Console.WriteLine($"Quantos minutos de duração tem o DVD ?");
-
         var TempoDeDuracao = TimeSpan.Parse(Console.ReadLine());
+
 
         var dvd = new Dvd(NomeDoDVD, NomeDiretor, AnoDoLancamento, TempoDeDuracao)
         {
@@ -97,25 +99,24 @@ public static class Meniu
             Duracao = TempoDeDuracao
         };
 
-        Repository.itemBibliotecas.Add(dvd);
-
+        dvdCadastrado.Add(dvd);
         Console.Clear();
         Console.WriteLine($"Dvd cadastrado com sucesso!");
-
     }
+
 
     public static void EmprestarItens()
     {
         Console.Clear();
-        Console.WriteLine("Essa é a nossa lista de Dvds:");
+        Console.WriteLine("Essa é a nossa lista de DVDs:");
         Console.WriteLine();
 
         bool encontrouDvd = false;
 
-        for (int i = 0; i < Repository.itemBibliotecas.Count; i++)
+        for (int i = 0; i < dvdCadastrado.Count; i++)
         {
 
-            var item = Repository.itemBibliotecas[i];
+            var item = dvdCadastrado[i];
 
             if (item is Dvd dvd)
             {
@@ -128,11 +129,12 @@ public static class Meniu
 
         if (!encontrouDvd)
         {        
-                Console.WriteLine("Não foi encontrado nenhum item");            
+            Console.WriteLine("Não foi encontrado nenhum item");            
+            Console.WriteLine("Aperte alguma tecla para continuar");
+            Console.ReadLine();
+            return;
         }
 
-        Console.WriteLine("Aperte alguma tecla para continuar");
-        Console.ReadLine();
 
         Console.Clear();
         Console.WriteLine("Agora selecione qual dvd você deseja pegar emprestado");
@@ -151,9 +153,6 @@ public static class Meniu
 
             if(itensDaBiblioteca is Dvd dvd)
             {
-
-                Console.WriteLine("Nossa lista com todos os itens:");
-                Console.WriteLine();
 
                 Console.WriteLine($"Item {i + 1}:");
                 Console.WriteLine($"Dvd : {dvd.Titulo}");

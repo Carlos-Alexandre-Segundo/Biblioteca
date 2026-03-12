@@ -12,5 +12,4 @@ public class Usuario
     public int Idade { get; set; }
 
     public List<ItemBiblioteca> ItensEmprestadosOuAlugados { get; set; } = [];
-
 }
